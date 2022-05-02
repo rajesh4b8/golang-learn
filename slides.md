@@ -56,12 +56,12 @@ func main() {
 
 - how to run the code?
 - Go CLI
-  - ```go build```
-  - ```go run```
-  - ```go fmt```
-  - ```go install```
-  - ```go get```
-  - ```go test```
+  - `go build`
+  - `go run`
+  - `go fmt`
+  - `go install`
+  - `go get`
+  - `go test`
 
 ### Packages in Go
 
@@ -95,3 +95,40 @@ func main() {
 - What is a slice?
 - Must be of same type
 - How to declare and loop through?
+
+## Day 3
+
+### Flow controll statements
+
+- `if / else`
+- `for`
+- `switch`
+- `defer`
+
+### Zero values in Go
+
+| Type          | Zero Value  |
+| -----------   | ----------- |
+| Integer       | 0           |
+| Floating point| 0.0         |
+| Boolean       | false       |
+| String        | ""          |
+| Pointer       | nil         |
+| Interface     | nil         |
+| Slice         | nil         |
+| Map           | nil         |
+| Channel       | nil         |
+| Function      | nil         |
+
+### Playing Cards
+
+- creating new deck
+- printing
+- deal
+- toString
+
+## Day 4
+
+### Functions
+
+- A language that supports first class functions
