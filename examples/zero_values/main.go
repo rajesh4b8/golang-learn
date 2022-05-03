@@ -8,9 +8,13 @@ func main() {
 
 	// Creating variables
 	// of different types
+	// var q1 int = 0
 	var q1 int
+	// var q2 float64 = 0.0
 	var q2 float64
+	// var q3 bool = false
 	var q3 bool
+	// var q4 string = ""
 	var q4 string
 	var q5 []int
 	var q6 *int

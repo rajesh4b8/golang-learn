@@ -132,3 +132,11 @@ func main() {
 ### Functions
 
 - A language that supports first class functions
+- example: [functions](./examples/functions/main.go)
+- example: [methods](./examples/methods/main.go)
+- example: [more on functions](./examples/functions_variables/main.go)
+
+### Byte slice
+
+- Converting a string to byte slice
+- example: [byte slice](./examples/byte_slice/main.go)
