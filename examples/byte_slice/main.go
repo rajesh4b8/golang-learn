@@ -11,8 +11,11 @@ func main() {
 
 	// string to byte slice
 	str := "Hi there!"
-	fmt.Println(str, []byte(str))
+	content := []byte(str)
+	fmt.Println(str, content)
 
 	// ASCII representation of string -> [72 105 32 116 104 101 114 101 33]
+
+	fmt.Println("[]byte to string:", string(content))
 
 }

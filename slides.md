@@ -136,7 +136,20 @@ func main() {
 - example: [methods](./examples/methods/main.go)
 - example: [more on functions](./examples/functions_variables/main.go)
 
+## Day 5
+
 ### Byte slice
 
 - Converting a string to byte slice
 - example: [byte slice](./examples/byte_slice/main.go)
+
+### Completed the usecase for playing cards
+
+- SaveToFile
+- DeckFromFile
+- Shuffle
+- Discussed some standard packages
+
+### Basics of go testing
+
+- created tests for deck.go
