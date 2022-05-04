@@ -2,7 +2,11 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
+	"math/rand"
+	"os"
 	"strings"
+	"time"
 )
 
 type deck []string
@@ -39,4 +43,39 @@ func deal(d deck, handSize int) (deck, deck) {
 
 func (d deck) toString() string {
 	return strings.Join([]string(d), ",")
+}
+
+func (d deck) writeToFile(fileName string) {
+	str := d.toString()
+	err := ioutil.WriteFile(fileName, []byte(str), 0666)
+	if err != nil {
+		println("Error saving the file:", fileName, err.Error())
+		os.Exit(1)
+	}
+}
+
+func readFromFile(fileName string) deck {
+	content, err := ioutil.ReadFile(fileName)
+	if err != nil {
+		println("Error reading the file:", fileName, err.Error())
+		os.Exit(1)
+	}
+
+	str := string(content)
+	slice := strings.Split(str, ",")
+
+	// type conversion to deck
+	return deck(slice)
+}
+
+func (d deck) shuffle() {
+	// create new source from a variable seed0
+	source := rand.NewSource(time.Now().UnixNano())
+	// create a random from source
+	r := rand.New(source)
+	for i := range d {
+		// give random number between 0 and len - 1
+		newPosition := r.Intn(len(d) - 1)
+		d[i], d[newPosition] = d[newPosition], d[i]
+	}
 }
