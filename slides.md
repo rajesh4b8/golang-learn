@@ -153,3 +153,46 @@ func main() {
 ### Basics of go testing
 
 - created tests for deck.go
+
+## Day 6
+
+### Struts
+
+- Structs definition
+- Declaring the structs
+- Updating the structs
+- Embedded structs
+- Receiver functions / methods
+- Pass by value
+- Pass by pointer
+
+### Pinters
+
+- Use `&` to access the pointer (address)
+- Use `*` to access the value from pointer
+- `*` in front for a type incates we are passing pointer
+- Pointer indirection when using pointer recievers
+- You don't need to pass pointers for reference types, as the reference types are a reference to value types
+
+### Value Types / Reference types
+
+| Value Type | Referece Type |
+| ----------- | --------------- |
+| int | slices |
+| float | maps |
+| string | channels |
+| bool | pointers |
+| structs | functions |
+
+### Assignment 1
+
+- Print numbers from 1 to 10 and print whether it's even or odd
+- Sample output
+
+``` text
+1 - odd
+2 - even
+3 - odd
+4 - even
+...
+```
