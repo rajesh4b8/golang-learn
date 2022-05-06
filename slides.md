@@ -176,13 +176,13 @@ func main() {
 
 ### Value Types / Reference types
 
-| Value Type | Referece Type |
-| ----------- | --------------- |
-| int | slices |
-| float | maps |
-| string | channels |
-| bool | pointers |
-| structs | functions |
+| Value Type       | Referece Type |
+| ---------------- | ------------- |
+| int              | slices        |
+| float            | maps          |
+| string           | channels      |
+| bool             | pointers      |
+| structs          | functions     |
 
 ### Assignment 1
 
@@ -196,3 +196,24 @@ func main() {
 4 - even
 ...
 ```
+
+## Day 7
+
+### Maps
+
+- All the keys should be of same type
+- All the values should be of same type
+- Maps vs Structs
+
+| Map                 | Struct               |
+|-------------------- |----------------------|
+| All keys - same type| different types      |
+| related properties  | represent something    |
+| All values - same type|can be different |
+| keys - can be added | Define them at compile time |
+| keys are indexed   | keys not indexed |
+| Reference Type     | Value Type |
+
+### Interfaces
+
+- Example
