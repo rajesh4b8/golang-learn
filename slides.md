@@ -217,3 +217,29 @@ func main() {
 ### Interfaces
 
 - Example
+
+## Day 8
+
+### GOPATH / GOROOT
+
+- GOROOT is a variable that defines where your Go SDK is located. You do not need to change this variable, unless you plan to use different Go versions.
+- GOPATH is a variable that defines the root of your workspace. By default, the workspace directory is a directory that is named go within your user home directory (~/go for Linux and MacOS, %USERPROFILE%/go for Windows). GOPATH stores your code base and all the files that are necessary for your development. You can use another directory as your workspace by configuring GOPATH for different scopes. GOPATH is the root of your workspace and contains the following folders:
+  - src/: location of Go source code (for example, .go, .c, .g, .s).
+  - pkg/: location of compiled package code (for example, .a).
+  - bin/: location of compiled executable programs built by Go.
+
+### GoLang developer workspace
+
+- Define your GOPATH
+- Setup your project from https://github.com/rajesh4b8/users-api-batch-2
+
+### MVC Architecture
+
+- MVC is abbreviated as Model View Controller is a design pattern created for developing applications specifically web applications. As the name suggests, it has three major parts. The traditional software design pattern works in an "Input - Process - Output" pattern whereas MVC works as "Controller -Model - View" approach
+
+### Use Case - Users API
+
+- Create User
+- Get User
+- Update User
+- Delete User
