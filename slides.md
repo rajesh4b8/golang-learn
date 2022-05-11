@@ -243,3 +243,16 @@ func main() {
 - Get User
 - Update User
 - Delete User
+
+## Day 9
+
+- Use case development
+  - User controller with get user
+  - created User model with type struct
+  - created users service
+  - error handling with errors util
+
+## Day 10
+
+- Git basics
+  - checkout a branch -> get the code from a branch
