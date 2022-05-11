@@ -255,4 +255,21 @@ func main() {
 ## Day 10
 
 - Git basics
+  - commit is always to a local repository
+  - push is to update the remote repository with latest commits
+  - origin is default remote repository
   - checkout a branch -> get the code from a branch
+
+- Git ToDo
+  - create a github account
+  - setup authentication from local git to github
+    - https auth -> use git credential helper to save password in local
+    - ssh auth -> generate pub / private keys and use
+  - setup by using ssh
+    - generate pub/private keys
+
+    ```ssh-keygen -t ed25519 -C "your_email@example.com"```
+
+  - add the pub key in github.coom at settings
+  - setup local config, follow https://training.github.com/downloads/github-git-cheat-sheet/
+  - clone the repository by using ssh url
