@@ -271,5 +271,10 @@ func main() {
     ```ssh-keygen -t ed25519 -C "your_email@example.com"```
 
   - add the pub key in github.coom at settings
-  - setup local config, follow https://training.github.com/downloads/github-git-cheat-sheet/
+  - setup local config, follow <https://training.github.com/downloads/github-git-cheat-sheet/>
   - clone the repository by using ssh url
+
+## Day 11
+
+- Users API Create / Get using Map\
+- Assignement to fetch all the users
