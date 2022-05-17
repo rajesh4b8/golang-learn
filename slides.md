@@ -278,3 +278,13 @@ func main() {
 
 - Users API Create / Get using Map\
 - Assignement to fetch all the users
+
+## Day 1x
+
+### Concurrency
+
+- Concurrency is *handling* multiple tasks
+- Parallelism is *doing* multitle tasks at the same time
+- Golang does a better concurrency in a single CPU core
+- Golang does parallelism when given more than one CPU core
+- Each CPU core will have one main goroutine.
