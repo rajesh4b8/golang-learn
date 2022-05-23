@@ -29,6 +29,8 @@ func main() {
 		fmt.Println(<-c)
 	}
 
+	// Reading from Channel is a blocking operation!
+
 }
 
 func checkHealth(link string, c chan string) {

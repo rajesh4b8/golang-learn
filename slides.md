@@ -276,10 +276,22 @@ func main() {
 
 ## Day 11
 
-- Users API Create / Get using Map\
+- Users API Create / Get using Map
 - Assignement to fetch all the users
 
-## Day 1x
+## Day 12
+
+- Use case: Create and Get users from Map
+
+## Day 13
+
+- Use case: Database connection and fetch user by id
+
+## Day 14
+
+- Use case: Insert into DB and reading sql errors
+
+## Day 15
 
 ### Concurrency
 
@@ -288,3 +300,30 @@ func main() {
 - Golang does a better concurrency in a single CPU core
 - Golang does parallelism when given more than one CPU core
 - Each CPU core will have one main goroutine.
+
+## Day 16
+
+### Go Routines, Wait Groups and channels
+
+## Day 17
+
+- Use Case: Implement logging by using zap
+
+## Day 18
+
+### Modules
+
+- GOROOT -> Where Go is installed (default for windows: `C:\Program Files\Go`)
+- GOPATH -> Where your go workspace is defined (Default for windows: `C:\Users\<user>\Go`)
+- All the modules being used will be downloded to GOPATH
+- Go Modules introduced in Go 1.13
+- If you define go modules to the package you nolonger need to put your repository in GOPATH
+- Modules are how Go manages dependencies.
+- A module is a collection of packages that are released, versioned, and distributed together. Modules may be downloaded directly from version control repositories or from module proxy servers.
+
+- Service design pattern
+
+## Day 19
+
+- Refresh basic concepts
+- GoLang cheat sheet <https://github.com/rajesh4b8/golang-cheat-sheet>
